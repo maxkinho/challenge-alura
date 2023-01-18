@@ -1,0 +1,74 @@
+body {
+    background: rgb(39 30 41);
+}
+
+div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+textarea {
+    width: 45%;
+    height: 350px;
+    border-radius: 30px;
+    padding: 25px;
+    color: #ff0000;
+    border-width: 5px;
+    border-color: #aa61ed;
+}
+
+#txt-area1 {
+    background: #1c1c1c;
+    width: 65%;
+    height: 350px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+#txt-area2 {
+    background: #1c1c1c;;
+    width: 65%;
+    height: 350px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+#obs {
+    color: #2eff00;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#not {
+    color: #2eff00;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cripton, #criptoff, #copiar{
+    background: #42a6a6;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    margin-right: 10px;
+    transition: 300ms;
+}
+
+#cripton:hover, #criptoff:hover, #copiar:hover{
+    background-color: #8cff8c;
+    
+}
